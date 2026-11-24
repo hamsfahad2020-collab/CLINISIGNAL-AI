@@ -1,0 +1,9 @@
+CLINISIGNAL AI — Streamlit path fix
+
+Replace the existing app.py in the GitHub repository with this app.py.
+The updated app searches for synthetic_icu.csv, logistic_regression.joblib,
+and evaluation_metrics.json either in the repository root OR in the original
+data/ and models/ folders. This matches the current flattened upload.
+
+Do not upload this README over the project's main README.
+After replacing app.py, Streamlit Cloud should redeploy automatically.

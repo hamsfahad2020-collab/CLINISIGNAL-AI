@@ -1,0 +1,28 @@
+{
+  "model": "Logistic Regression",
+  "threshold": 0.9349999999999999,
+  "patient_counts": {
+    "train": 192,
+    "validation": 48,
+    "test": 60
+  },
+  "row_counts": {
+    "train": 6392,
+    "validation": 1600,
+    "test": 2005
+  },
+  "test_positive_labels": 96,
+  "test_negative_labels": 1909,
+  "sensitivity": 0.9479166666666666,
+  "precision": 0.8504672897196262,
+  "f1": 0.896551724137931,
+  "pr_auc": 0.9697250381031434,
+  "roc_auc": 0.9984503230312555,
+  "confusion_matrix_tn_fp_fn_tp": [
+    1893,
+    16,
+    5,
+    91
+  ],
+  "warning": "Synthetic rule-generated labels only. Not clinical evidence or real-world sepsis performance."
+}
